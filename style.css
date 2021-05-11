@@ -1,0 +1,88 @@
+body, html, header, h1{
+	margin: 0px;
+	padding: 0px;
+}
+header, body, html{
+	width: 100%
+	height: 100%;
+}
+body{
+	font-family: helvetica;
+}
+html{
+	background: url("https://media.gettyimages.com/vectors/bamboo-background-vector-id165733997?k=6&m=165733997&s=612x612&w=0&h=AgTgEvz1rromVzGyvBt7haqbVs7n-XBgYh-Ob-BUCcQ=") no-repeat center center;
+	background-size: cover;
+	color: white;
+
+
+}
+p{
+	color: black;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+a{
+	color: blue;
+}
+
+h1{
+	border: solid 24px grayscale;
+	padding: 24px;
+	margin: 24px;
+	color: grayscale;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: 1px 1px 10px black;
+	font-size: 55px;
+}
+header{
+	font-size: 25px;
+}
+
+.card{
+	width: 500px; /*1*/
+	margin: 0px auto; /*2*/
+	background-color: white; /*3*/
+	box-shadow: 10px 5px 20px #999; /*4*/
+}
+.card a{ /*5*/
+	color: #333
+	text-decoration: none;
+}
+
+
+.card-image{
+	height: 500px; /*1*/
+	position: relative; /*2*/
+	overflow: hidden; /*3*/
+}
+.card-image img{
+	width: 300% /*4*/
+	/*5 - Métode ce centrage en fonction de la taille de l'image */
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	filter: none;
+	transition-property: filter width;
+	transition-duration: .5s;
+	transition-timing-function: ease;
+}
+
+.card-body{
+	text-align: relative;
+	padding: 15px 20px;
+	box-sizing: border-box;
+}
+
+.card-title, .card-excerpt{
+	font-family: 'PlayFair display', serif;
+}
+
+.card-title{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
